@@ -12,7 +12,7 @@ steps:
       [
         'build',
         '-t',
-        'us-east1-docker.pkg.dev/$PROJECT_ID/my-repository/sample-app:v1.0',
+        'us-east1-docker.pkg.dev/$PROJECT_ID/my-repository/sample-app:v2.0',
         '.'
       ]
 
@@ -22,7 +22,7 @@ steps:
     args:
       [
         'push',
-        'us-east1-docker.pkg.dev/$PROJECT_ID/my-repository/sample-app:v1.0'
+        'us-east1-docker.pkg.dev/$PROJECT_ID/my-repository/sample-app:v2.0'
       ]
 
   # Step 4: Deploy to PROD namespace
